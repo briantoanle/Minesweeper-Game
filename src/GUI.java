@@ -69,7 +69,8 @@ public class GUI extends JFrame implements MouseListener {
 	}
 	
 	public void clickCell (GUICell btn) {
-		game.processClick(btn.getCol(), btn.getRow());
+		//game.processClick(btn.getCol(), btn.getRow());
+		game.processClick(btn.getRow(), btn.getCol());
 	}
 	
 	public void rightClickCell (GUICell btn) {
